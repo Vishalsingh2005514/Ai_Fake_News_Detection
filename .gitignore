@@ -1,2 +1,32 @@
-# Google App Engine generated folder
-appengine-generated/
+# API Keys - NEVER commit these
+.env
+*.env
+.streamlit/secrets.toml
+
+# Database (user data - regenerated at runtime)
+*.db
+history.db
+
+# Large dataset files (too big for GitHub)
+Fake.csv
+True.csv
+WELFake_Dataset.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Editor/tool folders
+.vscode/
+.claude/
+
+# Temp/debug files
+*.log
+response.html
+test_*.py
